@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label{
+    border: 1px solid white;
+    padding: 2px;
+    width: 20%;
+    height: 4vh;
+    background-color: rgb(172, 112, 230);
+    margin-top: 5vh;
+}
+.div1{
+    position: relative;
+    width: 50%;
+    height: 60vh;
+    background-color: bisque;
+    
+}
+#block {
+    position: absolute;
+  }
+
+  #createButton{
+        margin: 3vh;
+      width: 10vw;
+      height: 6vh;
+      border-radius: 20px;
+      background-color: blue;
+      color: aliceblue;
+      cursor: pointer;
+      border: none;
+      transition: .7s;
+  }
+  #createButton:hover{
+    background-color: rgb(60, 52, 170);
+  
+}
